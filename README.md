@@ -2,8 +2,9 @@
 
 This app is designed to use 3 different api to look up specific information. By entering different command after `node liri.js` the user can look up different things.
 
-Video of app working: (https://youtu.be/gCqkXm71aws)
-Github repo: (https://github.com/ngocduyvo12/liri-bot)
+**Video of app working:** https://youtu.be/gCqkXm71aws.
+
+**Github repo:** https://github.com/ngocduyvo12/liri-bot.
 
 The app can be run through git bash:
 1. Use git bash to navigate to the root folder
