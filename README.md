@@ -9,13 +9,14 @@ This app is designed to use 3 different api to look up specific information. By 
 The app can be run through git bash:
 1. Use git bash to navigate to the root folder
 2. open the liri.js with node: **node liri.js**
-3. enter one of the three specified search term: **node liri.js <search>**
+3. enter one of the three specified search term: **node liri.js *search* **
+
 search Terms: 
    * spotify-this-song
    * concert-this
    * movie-this
    * do-what-it-says
-4. Enter what you want to look up: **node liri.js <search> <something>**
+4. Enter what you want to look up: **node liri.js *search something* **
 5. Enjoy!
 
 The app is made using three different apis. 
