@@ -36,9 +36,9 @@ The NPM used in this app are:
 To use this app, spotify-key and spotify-secret are required. This can be obtained by going to spotify developer page and sign up. After you have obtained the keys and secret:
 Replace the content of **var spotify = new Spotify(keys.spotify)** with
  **var spotify = new Spotify({
-  id: <your spotify client id>,
-  secret: <your spotify client secret>
-});** replace <your spotify client id> with your spotify-id and replace <your spotify client secret> with your secret. No quotes!
+  id: your spotify client id,
+  secret: your spotify client secret
+});** replace **your spotify client id** with your spotify-id and replace **your spotify client secret** with your secret. No quotes!
 
 After I initialize all the required npm, I have to assign the input from **process.argv[2]** to a search variable and **process.argv[3]** to a term variable. Although in the case of term, *slice()* and *join()* was use to get more dynamic input. 
 
