@@ -10,6 +10,7 @@ The app can be run through git bash:
 1. Use git bash to navigate to the root folder
 2. open the liri.js with node: **node liri.js**
 3. enter one of the three specified search term: **node liri.js search**. 
+
 search Terms: 
 * spotify-this-song
 * concert-this
