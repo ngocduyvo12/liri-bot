@@ -9,7 +9,7 @@ This app is designed to use 3 different api to look up specific information. By 
 The app can be run through git bash:
 1. Use git bash to navigate to the root folder
 2. open the liri.js with node: **node liri.js**
-3. enter one of the three specified search term: **node liri.js search**. 
+3. enter one of the four specified search term: **node liri.js search**. 
 
 search Terms: 
 * spotify-this-song
@@ -19,6 +19,16 @@ search Terms:
 
 4. Enter what you want to look up: **node liri.js search something**
 5. Enjoy!
+
+
+**spotify-this-song** command will let a user search through spotify api for a song and output artist's name, song's name, links, and album.
+
+**movie-this** api will let a user search for a movies title and output title, year, IMDB, rotten tomatoes score, country, language, plot, and actors.
+
+**concert-this** will let a user search for upcoming conert of an artist and output name of venue, venue location, and date of event
+
+**do-what-it-says** will look through the random.txt file and input search and term automatically.
+
 
 The app is made using three different apis. 
 1. spotify-api
