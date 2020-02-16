@@ -55,8 +55,8 @@ function callCommand() {
             var concertURL = `https://rest.bandsintown.com/artists/${term}/events?app_id=codingbootcamp`
             axios.get(concertURL).then(function (response) {
 
+                //for loop for converting time
                 for (var i = 0; i < response.data.length; i++) {
-
                     //convert datetime into MM/DD/YYYY format with moment:
                     var dateTime = response.data[i].datetime;
                     var dateFormat = "YYYY-MM-DDTHH:mm:ssZ"
