@@ -23,8 +23,8 @@ if (!search) {
     callCommand()
 )
 
+//main function of the app
 function callCommand() {
-
     //use switch case to switch between cases of search
     switch (search) {
         //use spotify npm for case spotify-this-song
