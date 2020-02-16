@@ -16,7 +16,7 @@ var search = process.argv[2]; //search type, no need for slice since it is joine
 var term = process.argv.slice(3).join("+") //search term. slice and join to make it readable
 
 
-
+// if there is no input then console log out error
 if (!search) {
     console.log("Please enter a valid search term")
 } else (
