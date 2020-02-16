@@ -61,11 +61,9 @@ function callCommand() {
                     var dateTime = response.data[i].datetime;
                     var dateFormat = "YYYY-MM-DDTHH:mm:ssZ"
                     var dateConverted = moment(dateTime, dateFormat).format("MM/DD/YYYY")
-                    //console log desired information
                     console.log(`${divider} Name of Venue: ${response.data[i].venue.name}
                     \nVenue Location: ${response.data[i].venue.city}, ${response.data[i].venue.region}, ${response.data[i].venue.country}
                     \nDate of Event: ${dateConverted} `)
-                    // console.log(response.data[i].venue.name)
                 }
             })
             break;
